@@ -1,0 +1,128 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: coral;
+    margin: 0 auto;
+    /* height: 50px; */
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .menu-btn {
+    border: none;
+    outline: none;
+    color: black;
+    padding: 8px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown:hover .menu-btn {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    float: none;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    padding: 1px 8px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(52, 50, 150);
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.content-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.divider {
+    background-color: black;
+    max-width: 1100px;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.content-article p {
+    padding: 8px 12;
+    margin: 8px 12;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-article a {
+    color: black;
+}
+
+.content-article a:hover {
+    color: coral;
+}
+
+.content-article embed {
+    padding: 12px 4px;
+}
+
+p {
+    font-size: 18px;
+    padding: 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

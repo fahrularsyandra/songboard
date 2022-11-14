@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1592922823354-c48e6d894bbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXwxMjk4MTQ2fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(208, 20, 20);
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h3 {
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    opacity: 0.75;
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 400px;
+    max-height: 800px;
+    padding: 20px 30px;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: rgb(255, 72, 16);
+}
+
+.box .submit-button {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.form-style {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover {
+    background-color: coral;
+}
